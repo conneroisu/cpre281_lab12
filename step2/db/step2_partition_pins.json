@@ -1,0 +1,105 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rdata1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "raddr1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "raddr1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "raddr1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "raddr2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "raddr2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "raddr2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "waddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "we",
+					"strict" : false
+				},
+				{
+					"name" : "waddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "waddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
