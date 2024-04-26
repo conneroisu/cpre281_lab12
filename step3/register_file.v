@@ -12,8 +12,8 @@ module register_file (
   wire [7:0] decoder_out;
   wire [3:0] reg_out_0, reg_out_1, reg_out_2, reg_out_3, reg_out_4, reg_out_5;
   wire [3:0] reg_out_6, reg_out_7;
-  wire [3:0] reg_not_out_0, reg_not_out_1, reg_not_out_2, reg_not_out_3, reg_not_out_4;
-  wire [3:0] reg_not_out_5, reg_not_out_6, reg_not_out_7;
+  wire [3:0] reg_not_out_0, reg_not_out_1, reg_not_out_2, reg_not_out_3;
+  wire [3:0] reg_not_out_4, reg_not_out_5, reg_not_out_6, reg_not_out_7;
   decoder_3to8 decoder (
       .select(write_address),
       .enable(write_enable),
