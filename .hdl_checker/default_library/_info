@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12
+vdecoder_3to8
+Z1 !s110 1714079404
+!i10b 1
+!s100 ldgc=WZZ3n@R8NL?H5i2R1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ida?Ez6Ck7d@m=:e2jFSMi2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1713810305
+Z5 8/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v
+Z6 F/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v
+!i122 10
+L0 44 8
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1714079404.000000
+!s107 /run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v|
+Z9 !s90 -modelsimini|/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/.hdl_checker/modelsim.ini|-quiet|-work|/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/.hdl_checker/default_library|-lint|-hazards|-pedanticerrors|-L|default_library|/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v|
+!i113 1
+Z10 o-quiet -work /run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/.hdl_checker/default_library -lint -hazards -pedanticerrors -L default_library
+Z11 tCvgOpt 0
+vfour_bit_register
+R1
+!i10b 1
+!s100 8d53C^la5g9I<4V[bea5c2
+R2
+IHMNoF@2<gVJ[lgYJ9mGAY2
+R3
+R0
+R4
+R5
+R6
+!i122 10
+L0 21 22
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 /run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v|
+R9
+!i113 1
+R10
+R11
+vmux_8to1
+R1
+!i10b 1
+!s100 P2][aBb37`k7JB9NLN2Nb1
+R2
+IoaBBlMjQZRHFfDOO:<4Wa1
+R3
+R0
+R4
+R5
+R6
+!i122 10
+L0 53 26
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vone_bit_register
+R1
+!i10b 1
+!s100 8dH1mP_ASP?GIa31[L11=3
+R2
+I7J5cnSoMo<QIPlo`MzUIW1
+R3
+R0
+R4
+R5
+R6
+!i122 10
+L0 2 18
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vregister_file
+R1
+!i10b 1
+!s100 4E[fAeXE[zae7D1<33]_m0
+R2
+I9<[C2bDNY^kZG[UnRW0hI0
+R3
+R0
+R4
+R5
+R6
+!i122 10
+L0 80 58
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11

@@ -1,5 +1,3 @@
-
-
 module one_bit_register (
     input  wire clk,
     input  wire rst_n,
@@ -15,6 +13,5 @@ module one_bit_register (
       Q <= D_in;
     end
   end
-
   assign not_Q = ~Q;
 endmodule

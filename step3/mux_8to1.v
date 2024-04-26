@@ -1,4 +1,3 @@
-
 module mux_8to1 (
     input [3:0] in0,
     in1,
@@ -11,7 +10,7 @@ module mux_8to1 (
     input [2:0] sel,
     output reg [3:0] out
 );
-  always @(*) begin
+  always_comb begin
     case (sel)
       3'b000:  out = in0;
       3'b001:  out = in1;
@@ -25,4 +24,3 @@ module mux_8to1 (
     endcase
   end
 endmodule
-

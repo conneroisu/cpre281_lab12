@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3
+vadder_4bit
+Z1 !s110 1714135650
+!i10b 1
+!s100 _J=M>JX>5?o>^@:HF^J3i2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IG52`lICYV9oLncIze@Fa83
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1714135650
+Z5 8/tmp/tmp5672qg3y.v
+Z6 F/tmp/tmp5672qg3y.v
+!i122 3
+L0 2 63
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1714135650.000000
+!s107 /tmp/tmp5672qg3y.v|
+Z9 !s90 -modelsimini|/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/.hdl_checker/modelsim.ini|-quiet|-work|/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/.hdl_checker/default_library|-lint|-hazards|-pedanticerrors|-L|default_library|/tmp/tmp5672qg3y.v|
+!i113 1
+Z10 o-quiet -work /run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/.hdl_checker/default_library -lint -hazards -pedanticerrors -L default_library
+Z11 tCvgOpt 0
+vdecoder_3to8
+R1
+!i10b 1
+!s100 lA^<=dDYSKjcb`og7c]F>0
+R2
+I04CRfmTD>SYifaS10QIKm0
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 65 8
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 /tmp/tmp5672qg3y.v|
+R9
+!i113 1
+R10
+R11
+vFA
+R1
+!i10b 1
+!s100 [z]B```gUUVSVK`?0:7ZP2
+R2
+If_J^f`;8`Yk1RcK^b@W7i3
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 73 12
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@f@a
+vfour_bit_register
+R1
+!i10b 1
+!s100 L?_AKLzFQQ`A=d[a_TcMa0
+R2
+IfE^;8mJLGl]7e^8LU8XIl3
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 85 22
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vmux_8to1
+R1
+!i10b 1
+!s100 m1;7E^DWT1P]YDViKF5m91
+R2
+INdbiH<SHlNgMa]mNA=DU^3
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 107 26
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+vone_bit_register
+R1
+!i10b 1
+!s100 cic82hICa1ZUCeRi8T]ZN1
+R2
+IV;Di]2Lnkz[[Ro5O;5C`a1
+R3
+R0
+R4
+R5
+R6
+!i122 3
+L0 133 17
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11

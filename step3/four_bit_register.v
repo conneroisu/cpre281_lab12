@@ -1,5 +1,3 @@
-
-
 module four_bit_register (
     input wire clk,
     input wire clrn,
@@ -10,7 +8,7 @@ module four_bit_register (
 );
   genvar i;
   generate
-    for (i = 0; i < 4; i = i + 1) begin : bit_register
+    for (i = 0; i < 4; i = i + 1) begin : g_bit_register
       one_bit_register single_bit_reg (
           .clk(clk),
           .rst_n(clrn),

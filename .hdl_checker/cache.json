@@ -1,0 +1,1298 @@
+{
+ "builder": {
+  "_version": "2020.1",
+  "_modelsim_ini": {
+   "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/.hdl_checker/modelsim.ini",
+   "__class__": "Path"
+  },
+  "_logger": "hdl_checker.builders.msim",
+  "_work_folder": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/.hdl_checker",
+  "_builtin_libraries": [
+   {
+    "name": "altera_mf",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "synopsys",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_lnsim_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_lnsim",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "verilog",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclone10lp_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "fiftyfivenm_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "fiftyfivenm",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxii",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "ieee",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "std_developerskit",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneive",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "lpm_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclonev_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "sv_std",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "220model",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "altera_mf_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "modelsim_lib",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneive_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "vital2000",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "sgate",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cyclone10lp",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriav_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "twentynm_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "lpm",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv_pcie_hip",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxii_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixv_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_hssi_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaii_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "220model_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriaiigz_hssi",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "std",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "cycloneiv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "arriavgz_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "maxv",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "sgate_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "stratixiv_pcie_hip_ver",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "_added_libraries": [
+   {
+    "name": "default_library",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "__class__": "MSim"
+ },
+ "config_file": [
+  {
+   "name": "/tmp/hdl_checker_project_pid11817.json",
+   "__class__": "Path"
+  },
+  1714079162.8924878,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/register_file.v",
+     "__class__": "Path"
+    },
+    "mtime": 1714079381.419816,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/register_file.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713887634.197327,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/decoder_3to8.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713886777.6498454,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step1/one_bit_register.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713887702.0295727,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/one_bit_register.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713887708.0485058,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/decoder_3to8.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713811900.183345,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/adder_4bit_inst.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713810622.7559178,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713810305.6787832,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/mux_8to1.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713811890.595462,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/regfile.v",
+     "__class__": "Path"
+    },
+    "mtime": 1714077798.0947442,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/one_bit_register.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713811925.8990316,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/FA.v",
+     "__class__": "Path"
+    },
+    "mtime": 1714077779.35102,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/seven_seg_decoder.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713810484.035609,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/adder_4bit.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713810622.7559178,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/four_bit_register.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713811913.1991866,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/seven_seg_decoder.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713887853.0668933,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/mux_8to1.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713887782.1106822,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/four_bit_register.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713886806.257528,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/four_bit_register.v",
+     "__class__": "Path"
+    },
+    "mtime": 1713809660.4496505,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/register_file.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7no2g1dx.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpyc_s3c9_.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbyhb6y51.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpklrb7d5a.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpf6e96yo7.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpailujhbo.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2f3fx0dm.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2lcc28xb.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3pulrk_w.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpks0an4xh.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2d27sl01.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvgderax5.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpixship45.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp5b33h8ge.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2gbg1q6b.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpba10vxoa.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpe32uu_3v.v",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbshlq561.v",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "register_file",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      79,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "one_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/mux_8to1.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_8to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/register_file.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "register_file",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/seven_seg_decoder.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_seg_decoder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/FA.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "FA",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/four_bit_register.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "one_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "one_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "four_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      20,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/four_bit_register.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "four_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/one_bit_register.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "one_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/four_bit_register.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "four_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      23,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/adder_4bit.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "adder_4bit",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      19,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "four_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      20,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "register_file",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      79,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/four_bit_register.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "four_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_8to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      52,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/register_file.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "register_file",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step2/decoder_3to8.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "decoder_3to8",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/seven_seg_decoder.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "seven_seg_decoder",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/decoder_3to8.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "decoder_3to8",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/mux_8to1.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_8to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "decoder_3to8",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      43,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step3/one_bit_register.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "one_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/step1/one_bit_register.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "one_bit_register",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      2,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "mux_8to1",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      52,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/run/media/conner/source/000Vaults/SecondBrain/academia/CPRE281/Lab/Lab_12/regfile.v",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "decoder_3to8",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      43,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.7.4"
+}

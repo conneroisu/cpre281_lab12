@@ -1,0 +1,30 @@
+# list of directories with header files
+include_dirs:
+  - nvdla/include
+# list of directories to recursively search for SystemVerilog/Verilog sources
+source_dirs:
+  - step3
+auto_search_workdir: true
+verible:
+  syntax:
+    enabled: true
+    path: "verible-verilog-syntax"
+    # default: none
+  # verible-verilog-format configuration
+  format:
+    # default: true if in path
+    enabled: true
+    path: "verible-verilog-format"
+    # default: none
+verilator:
+  # verilator configuration
+  syntax:
+    # default: true if in path
+    enabled: true
+    path: "verilator"
+    # default: specified below
+    args:
+      - --lint-only
+      - --sv
+      - -Wall
+log_level: Info
