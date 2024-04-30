@@ -3,7 +3,7 @@ module decoder_3to8 (
     input wire enable,
     output reg [7:0] decode_out
 );
-  always @(*) begin
+  always_comb begin
     if (enable) begin
       case (select)
         3'b000:  decode_out = 8'b00000001;

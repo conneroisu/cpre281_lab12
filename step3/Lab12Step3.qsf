@@ -59,25 +59,11 @@ set_global_assignment -name BDF_FILE Lab12Step3.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_location_assignment PIN_M24 -to seg0
-set_location_assignment PIN_U23 -to seg1
-set_location_assignment PIN_W25 -to seg2
-set_location_assignment PIN_W22 -to seg3
-set_location_assignment PIN_W21 -to seg4
-set_location_assignment PIN_Y22 -to seg5
-set_location_assignment PIN_AD19 -to seg6
-set_location_assignment PIN_H22 -to seg20
-set_location_assignment PIN_F22 -to seg21
-set_location_assignment PIN_J22 -to seg22
-set_location_assignment PIN_L25 -to seg23
-set_location_assignment PIN_L26 -to seg24
-set_location_assignment PIN_E17 -to seg25
-set_location_assignment PIN_G18 -to seg26
 set_location_assignment PIN_F19 -to Ov
 set_location_assignment PIN_G19 -to Cout
-set_location_assignment PIN_AA24 -to sel
-set_location_assignment PIN_AB28 -to ctl
-set_location_assignment PIN_N21 -to we
+set_location_assignment PIN_AB21 -to sel
+set_location_assignment PIN_AC21 -to ctl
+set_location_assignment PIN_AB22 -to we
 set_location_assignment PIN_Y23 -to wdata[0]
 set_location_assignment PIN_Y24 -to wdata[1]
 set_location_assignment PIN_AA22 -to wdata[2]
@@ -85,7 +71,7 @@ set_location_assignment PIN_AA23 -to wdata[3]
 set_location_assignment PIN_AC24 -to waddr[0]
 set_location_assignment PIN_AB24 -to waddr[1]
 set_location_assignment PIN_AB23 -to waddr[2]
-set_location_assignment PIN_U24 -to rst_n
+set_location_assignment PIN_R24 -to rst_n
 set_location_assignment PIN_AC25 -to raddr2[0]
 set_location_assignment PIN_AB26 -to raddr2[1]
 set_location_assignment PIN_AD26 -to raddr2[2]
@@ -93,4 +79,19 @@ set_location_assignment PIN_AB27 -to raddr1[0]
 set_location_assignment PIN_AD27 -to raddr1[1]
 set_location_assignment PIN_AC27 -to raddr1[2]
 set_location_assignment PIN_M23 -to clk
+set_location_assignment PIN_W28 -to seg[0]
+set_location_assignment PIN_W27 -to seg[1]
+set_location_assignment PIN_Y26 -to seg[2]
+set_location_assignment PIN_W26 -to seg[3]
+set_location_assignment PIN_Y25 -to seg[4]
+set_location_assignment PIN_AA25 -to seg[6]
+set_location_assignment PIN_AA26 -to seg[5]
+set_location_assignment PIN_Y19 -to greg[0]
+set_location_assignment PIN_AF23 -to greg[1]
+set_location_assignment PIN_AD24 -to greg[2]
+set_location_assignment PIN_AA21 -to greg[3]
+set_location_assignment PIN_AB20 -to greg[4]
+set_location_assignment PIN_U21 -to greg[5]
+set_location_assignment PIN_V21 -to greg[6]
+set_global_assignment -name VERILOG_FILE adder_subtractor.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
