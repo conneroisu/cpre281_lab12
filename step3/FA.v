@@ -1,12 +1,12 @@
-module FA (
-    Cin, // Carry in
-    X,   // Input bit X
-    Y,   // Input bit Y
-    S,   // Sum
-    Cout // Carry out
+module fulladder(
+  input A,
+  input B,
+  input Cin,
+  output S,
+  output Cout
 );
-  input Cin, X, Y;
-  output Cout, S;
-  assign S = Cin ^ X ^ Y;  // XOR of all inputs
-  assign Cout = (X & Y) | (X & Cin) | (Y & Cin);
+
+  assign S = A ^ B ^ Cin;
+  assign Cout = (A & B) | (A & Cin) | (B & Cin);
+
 endmodule
